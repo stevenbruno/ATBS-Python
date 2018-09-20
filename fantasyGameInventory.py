@@ -8,7 +8,7 @@ def displayInventory(inv):
 
     print('\n' + 'Your Inventory: ' + '\n')
     for k, v in inv.items():
-        print(v, k)
+        print(v, k.rjust(12 - len(str(v)), '.'))
         item_count += v
     
     print('\n' + 'There are ' + str(item_count) + ' items in your inventory' + '\n')
