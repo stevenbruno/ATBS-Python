@@ -9,8 +9,7 @@ text = paste()
 
 lines = text.split('\n')
 
-for line in lines:
-    line = '* ' + line
+lines[:] = ['* ' + line for line in lines]
 
 text = '\n'.join(lines)
 
