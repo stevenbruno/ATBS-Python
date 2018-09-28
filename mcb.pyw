@@ -1,4 +1,4 @@
-#!/user/bin/env python
+#!/usr/bin/env python
 
 # mcb.pyw - saves and loads pieces of text to the clipboard
 # usage: py.exe mcb.pyw save <keyword> - saves clipboard to keyword
