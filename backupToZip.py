@@ -1,4 +1,4 @@
-#!/user/bin/env python
+#!/usr/bin/env python
 # backupToZip.py - copies a folder and its contents into a zip file whose filename increments
 # use: ./backupToZip.py <folder> - will backup the specified folder
 
