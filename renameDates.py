@@ -1,4 +1,4 @@
-#!/user/bin/env python
+#!/usr/bin/env python
 
 # renameDates.py = renames filenames with american MM-DD-YYYY format 
 # to european DD-MM-YYYY format.
