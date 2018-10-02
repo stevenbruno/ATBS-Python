@@ -4,3 +4,4 @@ hello.py
 RomeoAndJuliet.txt
 geckodriver.log
 census2010.py
+__pycache__/census2010.cpython-36.pyc
