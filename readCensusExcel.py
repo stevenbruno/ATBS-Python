@@ -6,7 +6,7 @@ import pprint
 
 print('Opening workbook...')
 wb = openpyxl.load_workbook('censuspopdata.xlsx')
-sheet = wb.get_sheet_by_name('Population by Census Tract')
+sheet = wb['Population by Census Tract']
 countyData = {}
 
 print('Reading rows...')
